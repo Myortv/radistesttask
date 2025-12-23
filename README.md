@@ -22,7 +22,7 @@ mkdir logs
 touch logs/logfile
 
 
-cp .env.example
+cp .env.example .env
 vim .env
 ```
 
