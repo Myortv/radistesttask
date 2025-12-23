@@ -1,0 +1,9 @@
+services:
+  radis-backend:
+    build: .
+    container_name: radis-backend
+    ports:
+      - "8000:8000"
+    working_dir: /src
+    volumes:
+      - "./:/src/"
